@@ -1,0 +1,58 @@
+public class EmployeeClassTest {
+    public static void main (String[] args) {
+        /* code */
+x
+public class Employee {
+    
+    private string name;
+    private int year ;
+    private string Address;
+    
+    public void setName(String nameGiven){
+        name = nameGiven;
+    }
+    
+     public void setYear(int YearGiven){
+        year = YearGiven;
+    }
+    
+     public void setYear(String YearGiven){
+        Year = Integer.parseInt (YearGiven;
+    }
+    
+     public void setAddress(String AddressGiven){
+        Address = AddressGiven;
+    }
+    
+    public string getname(){
+        return name;
+    }
+    
+     public int getYear(){
+        return Year;
+    }
+    
+     public string getAddress(){
+        return Address;
+    }
+    
+    
+    
+    public Employee (String employeename, int year, String Address) {
+        name = employeeName;
+        Year = employees year of joining;
+        Address = employeeAddress;
+    }
+    
+     public Employee (String employeename, int year) {
+        name = employeeName;
+        Year = employees year of joining;
+        Address = '';
+    }
+    
+     public Employee () {
+        name ="";
+        Year = 0;
+        Address = '';
+    }
+}
